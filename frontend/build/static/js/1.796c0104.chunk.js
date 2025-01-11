@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreactjs=self.webpackChunkreactjs||[]).push([[1],{2001:(e,s,t)=>{t.r(s),t.d(s,{default:()=>a});var c=t(579);const a=()=>(0,c.jsx)("div",{className:"w-[100vw] h-[100vh] flex justify-center items-center",children:(0,c.jsx)("img",{src:"https://sitechecker.pro/wp-content/uploads/2023/06/404-status-code.png",alt:"not page",className:"w-full h-full"})})}}]);
+//# sourceMappingURL=1.796c0104.chunk.js.map
