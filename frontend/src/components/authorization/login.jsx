@@ -38,7 +38,7 @@ const Login = () => {
     }
 
     const data =  {userEmail: email, userPassword: password}
-    await fetch("/login", {
+    await fetch("https://one7-maktab-backend.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

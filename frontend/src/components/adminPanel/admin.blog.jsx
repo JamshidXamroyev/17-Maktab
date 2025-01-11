@@ -35,7 +35,7 @@ const AdminBlog = () => {
             return
         }
 
-        await fetch("/add-blog", {
+        await fetch("https://one7-maktab-backend.onrender.com/add-blog", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"

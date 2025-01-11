@@ -16,13 +16,13 @@ const Blogs = () => {
 
   const getBlogs = async () => {
     setLoad(true)
-    await fetch('/my/get-blog').then(res => res.json()).then(data => setBlogs(data))
+    await fetch('https://one7-maktab-backend.onrender.com/my/get-blog').then(res => res.json()).then(data => setBlogs(data))
     setLoad(false)
   }
 
   const DeleteBlog = async(id) => {
     setLoad(true)
-    await fetch(`/delete/${id}`, {
+    await fetch(`https://one7-maktab-backend.onrender.com/delete/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json"

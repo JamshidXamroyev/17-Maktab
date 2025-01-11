@@ -40,7 +40,7 @@ const Register = () => {
       return 
     }
 
-    await fetch('/register', {
+    await fetch('https://one7-maktab-backend.onrender.com/register', {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

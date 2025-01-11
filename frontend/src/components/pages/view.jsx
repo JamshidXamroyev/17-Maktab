@@ -19,7 +19,7 @@ const View = () => {
     useEffect(() => {
         const getBlog = async() => {
             setLoad(true)
-            await fetch(`/get-one/${id}`).then(res => res.json()).then(data => setItem(data))
+            await fetch(`https://one7-maktab-backend.onrender.com/get-one/${id}`).then(res => res.json()).then(data => setItem(data))
             setLoad(false)
         }
         getBlog()

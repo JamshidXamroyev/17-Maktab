@@ -17,7 +17,7 @@ const Edit = () => {
 
     const getBlog = async() => {
         setLoad(true)
-        await fetch(`/get-one/${id}`).then(res => res.json()).then(data => {
+        await fetch(`https://one7-maktab-backend.onrender.com/get-one/${id}`).then(res => res.json()).then(data => {
             setImg(data.blogImg) 
             setTitle(data.blogTitle)
             setDescription(data.blogDescription)
