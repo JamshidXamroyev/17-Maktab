@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    transition: all .3s linear;
+}
+
+::-webkit-scrollbar{
+    width: 1vw;
+    height: 4px;
+    transform: translateX(-400px);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+
+::-webkit-scrollbar-button{
+    background-color: rgba(128, 128, 128, 0.39);
+}
+
+.style-gr{
+    background: linear-gradient(135deg, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient:hover{
+    background: linear-gradient(90deg, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.my-button{
+    width: 30vw;
+    border-radius: 4px;
+    border: 1px solid;
+    margin: 10px 0;
+}
+@media screen and (min-width: 768px){
+    ::-webkit-scrollbar{
+        width: 1vw;
+    }
+
+    .my-button{
+        width: 20vw;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    ::-webkit-scrollbar{
+        width: 0.5vw;
+    }
+
+    .my-button{
+        width: 14vw;
+    }
+}

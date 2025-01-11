@@ -1,0 +1,1 @@
+export {default as aboutImg} from '../imgs/about.jpg'
